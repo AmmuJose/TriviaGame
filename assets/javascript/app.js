@@ -147,7 +147,7 @@ var app = {
         //print result
         printResult: function() {
             $("#timer").empty();
-            var html = "<div id='noAnswer'>All Done. Here is how you did!</div>"
+            var html = "<div id='noAnswer'>All Done. Here is how you did !</div>"
             html += "<div id='correctAnswer'>Correct Answers : <b> " + app.correctAnswerCount + "</b></div>"
             html += "<div id='correctAnswer'>Incorrect Answers : <b> " + app.wrongAnswerCount + "</b></div>"
             html += "<div id='correctAnswer'>Unanswered : <b> " + app.unansweredCount + "</b></div>"
