@@ -45,19 +45,18 @@ hr {
 
 #questions .btn-md {
     width: 120px;
-    margin-left: 34%;
+    margin-left: 30%;
     margin-top: 16px;
     margin-bottom: 30px;
 }
 
-#questions ul li:link {
-    color: #eee;
-}
 
 #questions ul li:hover {
-    color: #aacc13;
+    /*color: #aacc13;*/
     font-weight: bold;
     cursor: pointer;
+    background-color: #101;
+    max-width: 50%;
 }
 
 #correctOrWrong,
@@ -82,4 +81,3 @@ img {
     border: 2px solid #000;
     margin-top: 10px;
 }
-
