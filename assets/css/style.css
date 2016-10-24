@@ -51,11 +51,12 @@ hr {
 }
 
 
+.iso #questions ul li:hover,
 #questions ul li:hover {
-    /*color: #aacc13;*/
+    color: #aacc13;
     font-weight: bold;
     cursor: pointer;
-    background-color: #101;
+    background-color: #860000;
     max-width: 50%;
 }
 
