@@ -50,8 +50,10 @@ hr {
     margin-bottom: 30px;
 }
 
+.ios #questions ul li:hover {
+    cursor: pointer;
+}
 
-.ios #questions ul li:hover,
 #questions ul li:hover {
     color: #aacc13;
     font-weight: bold;
