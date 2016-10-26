@@ -13,7 +13,7 @@ body {
 
 .container {
     max-width: 380px;
-    margin-top: 10%;
+    margin-top: 5%;
     background-color: rgba(17, 17, 17, 0.70);
     border: 4px solid #aacc13;
     border-radius: 15px;
@@ -41,6 +41,7 @@ hr {
     color: #00f67b;
     font-weight: bold;
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
 #questions .btn-md {
@@ -50,16 +51,16 @@ hr {
     margin-bottom: 30px;
 }
 
-.ios #questions ul li:hover {
-    cursor: pointer;
+.btn-answers{
+    width:150px;
+    text-align: left;
+    height: 30px;
+    padding: 0px 5px;
 }
 
-#questions ul li:hover {
-    color: #aacc13;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #860000;
-    max-width: 50%;
+li {
+    list-style: none;
+    margin:10px 0px;    
 }
 
 #correctOrWrong,

@@ -91,9 +91,7 @@ var app = {
             var html = "<div class='question'> 1) " + app.questions.question0.question + "</div>"
             html += '<ul id="question0">';
             for (var i = 0; i < app.questions.question0.choice.length; i++) {
-                html += "<li id='" + app.questions.question0.choice[i] + "' class='answers'>" ;
-                html += '<button class="btn btn-primary btn-answers">';
-                html += app.questions.question0.choice[i] + "</button></li>";
+                html += "<li id='" + app.questions.question0.choice[i] + "' class='answers'>" + app.questions.question0.choice[i] + "</li>";
             }
             html += '</ul>';
             $("#questions").html(html);
@@ -118,9 +116,7 @@ var app = {
             var html = "<div class='question'>" + (app.questionCount + 1) + ") " + app.questions[q].question + "</div>"
             html += '<ul id="' + q + '" class="touch">';
             for (var i = 0; i < app.questions[q].choice.length; i++) {
-                html += "<li class='answers' id='" + app.questions[q].choice[i] + "'>";
-                html += '<button class="btn btn-primary btn-answers">';
-                html += app.questions[q].choice[i] + "</button></li>";
+                html += "<li class='answers' id='" + app.questions[q].choice[i] + "'>" + app.questions[q].choice[i] + "</li>";
             }
             html += '</ul>';
             $("#questions").html(html);
