@@ -152,9 +152,9 @@ var app = {
         printResult: function() {
             $("#timer").empty();
             var html = "<div id='noAnswer'>All Done. Here is how you did !</div>"
-            html += "<div id='correctAnswer'>Correct Answers : <b> " + app.correctAnswerCount + "</b></div>"
-            html += "<div id='correctAnswer'>Incorrect Answers : <b> " + app.wrongAnswerCount + "</b></div>"
-            html += "<div id='correctAnswer'>Unanswered : <b> " + app.unansweredCount + "</b></div>"
+            html += "<div class='correctAnswer'>Correct Answers : <b> " + app.correctAnswerCount + "</b></div>"
+            html += "<div class='correctAnswer'>Incorrect Answers : <b> " + app.wrongAnswerCount + "</b></div>"
+            html += "<div class='correctAnswer'>Unanswered : <b> " + app.unansweredCount + "</b></div>"
             html += "<button class='btn btn-md btn-primary' id='startOver'> Start Over</button>"
             $("#questions").html(html);
         },

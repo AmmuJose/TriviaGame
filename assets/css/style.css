@@ -77,7 +77,7 @@ li {
     font-size: 18px;
 }
 
-#correctAnswer {
+.correctAnswer {
     color: #eee;
 }
 
